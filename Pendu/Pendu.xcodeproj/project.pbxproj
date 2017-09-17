@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4E765B1EF3C58600077E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E765A1EF3C58600077E64 /* AppDelegate.swift */; };
+		2B4E76601EF3C58600077E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4E765E1EF3C58600077E64 /* Main.storyboard */; };
+		2B4E76651EF3C58600077E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4E76631EF3C58600077E64 /* LaunchScreen.storyboard */; };
+		2B4E76721EF3CA3200077E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4E76711EF3CA3200077E64 /* Assets.xcassets */; };
+		2B4E76741EF3CAD800077E64 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E76731EF3CAD800077E64 /* MainViewController.swift */; };
+		2B4E76781EF3CC1100077E64 /* HangedGuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4E76771EF3CC1100077E64 /* HangedGuyView.swift */; };
+		2B4E767A1EF3CC1E00077E64 /* HangedGuy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4E76791EF3CC1E00077E64 /* HangedGuy.xib */; };
+		2B4E767E1EF3CC4800077E64 /* GuessWord.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4E767D1EF3CC4800077E64 /* GuessWord.xib */; };
+		2BC95C081EF3E5410022157D /* GuessWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC95C071EF3E5410022157D /* GuessWordView.swift */; };
+		2BC95C0A1EF41CD70022157D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC95C091EF41CD70022157D /* StatsViewController.swift */; };
+		2BC95C0C1EF41D0B0022157D /* StatsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC95C0B1EF41D0B0022157D /* StatsDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B4E76571EF3C58600077E64 /* Pendu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pendu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4E765A1EF3C58600077E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B4E765F1EF3C58600077E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B4E76641EF3C58600077E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B4E76661EF3C58600077E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4E76711EF3CA3200077E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4E76731EF3CAD800077E64 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controllers/MainViewController.swift; sourceTree = "<group>"; };
+		2B4E76771EF3CC1100077E64 /* HangedGuyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HangedGuyView.swift; path = Views/HangedGuyView.swift; sourceTree = "<group>"; };
+		2B4E76791EF3CC1E00077E64 /* HangedGuy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HangedGuy.xib; path = Views/HangedGuy.xib; sourceTree = "<group>"; };
+		2B4E767D1EF3CC4800077E64 /* GuessWord.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuessWord.xib; sourceTree = "<group>"; };
+		2BC95C071EF3E5410022157D /* GuessWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuessWordView.swift; path = Views/GuessWordView.swift; sourceTree = "<group>"; };
+		2BC95C091EF41CD70022157D /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatsViewController.swift; path = Controllers/StatsViewController.swift; sourceTree = "<group>"; };
+		2BC95C0B1EF41D0B0022157D /* StatsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4E76541EF3C58600077E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4E764E1EF3C58600077E64 = {
+			isa = PBXGroup;
+			children = (
+				2B4E76591EF3C58600077E64 /* Pendu */,
+				2B4E76581EF3C58600077E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4E76581EF3C58600077E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4E76571EF3C58600077E64 /* Pendu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4E76591EF3C58600077E64 /* Pendu */ = {
+			isa = PBXGroup;
+			children = (
+				2B4E76711EF3CA3200077E64 /* Assets.xcassets */,
+				2B4E76701EF3C64F00077E64 /* Ressources */,
+				2B4E766F1EF3C63B00077E64 /* Datas */,
+				2B4E766E1EF3C63500077E64 /* Models */,
+				2B4E766D1EF3C62D00077E64 /* Views */,
+				2B4E766C1EF3C62100077E64 /* Controllers */,
+				2B4E765A1EF3C58600077E64 /* AppDelegate.swift */,
+				2B4E765E1EF3C58600077E64 /* Main.storyboard */,
+				2B4E76631EF3C58600077E64 /* LaunchScreen.storyboard */,
+				2B4E76661EF3C58600077E64 /* Info.plist */,
+			);
+			path = Pendu;
+			sourceTree = "<group>";
+		};
+		2B4E766C1EF3C62100077E64 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B4E76731EF3CAD800077E64 /* MainViewController.swift */,
+				2BC95C091EF41CD70022157D /* StatsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2B4E766D1EF3C62D00077E64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B4E76771EF3CC1100077E64 /* HangedGuyView.swift */,
+				2B4E76791EF3CC1E00077E64 /* HangedGuy.xib */,
+				2B4E767D1EF3CC4800077E64 /* GuessWord.xib */,
+				2BC95C071EF3E5410022157D /* GuessWordView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2B4E766E1EF3C63500077E64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2B4E766F1EF3C63B00077E64 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				2BC95C0B1EF41D0B0022157D /* StatsDataManager.swift */,
+			);
+			name = Datas;
+			sourceTree = "<group>";
+		};
+		2B4E76701EF3C64F00077E64 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4E76561EF3C58600077E64 /* Pendu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4E76691EF3C58600077E64 /* Build configuration list for PBXNativeTarget "Pendu" */;
+			buildPhases = (
+				2B4E76531EF3C58600077E64 /* Sources */,
+				2B4E76541EF3C58600077E64 /* Frameworks */,
+				2B4E76551EF3C58600077E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pendu;
+			productName = Pendu;
+			productReference = 2B4E76571EF3C58600077E64 /* Pendu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4E764F1EF3C58600077E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Laurine Baillet";
+				TargetAttributes = {
+					2B4E76561EF3C58600077E64 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DGQJ57DFRV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2B4E76521EF3C58600077E64 /* Build configuration list for PBXProject "Pendu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B4E764E1EF3C58600077E64;
+			productRefGroup = 2B4E76581EF3C58600077E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B4E76561EF3C58600077E64 /* Pendu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B4E76551EF3C58600077E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4E76651EF3C58600077E64 /* LaunchScreen.storyboard in Resources */,
+				2B4E767E1EF3CC4800077E64 /* GuessWord.xib in Resources */,
+				2B4E76721EF3CA3200077E64 /* Assets.xcassets in Resources */,
+				2B4E767A1EF3CC1E00077E64 /* HangedGuy.xib in Resources */,
+				2B4E76601EF3C58600077E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4E76531EF3C58600077E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC95C081EF3E5410022157D /* GuessWordView.swift in Sources */,
+				2BC95C0C1EF41D0B0022157D /* StatsDataManager.swift in Sources */,
+				2B4E76781EF3CC1100077E64 /* HangedGuyView.swift in Sources */,
+				2B4E765B1EF3C58600077E64 /* AppDelegate.swift in Sources */,
+				2BC95C0A1EF41CD70022157D /* StatsViewController.swift in Sources */,
+				2B4E76741EF3CAD800077E64 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B4E765E1EF3C58600077E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4E765F1EF3C58600077E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B4E76631EF3C58600077E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4E76641EF3C58600077E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B4E76671EF3C58600077E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B4E76681EF3C58600077E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B4E766A1EF3C58600077E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGQJ57DFRV;
+				INFOPLIST_FILE = Pendu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurinebaillet.Pendu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B4E766B1EF3C58600077E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGQJ57DFRV;
+				INFOPLIST_FILE = Pendu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laurinebaillet.Pendu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4E76521EF3C58600077E64 /* Build configuration list for PBXProject "Pendu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4E76671EF3C58600077E64 /* Debug */,
+				2B4E76681EF3C58600077E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4E76691EF3C58600077E64 /* Build configuration list for PBXNativeTarget "Pendu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4E766A1EF3C58600077E64 /* Debug */,
+				2B4E766B1EF3C58600077E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B4E764F1EF3C58600077E64 /* Project object */;
+}
